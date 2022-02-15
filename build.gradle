@@ -11,7 +11,9 @@ repositories {
 
 dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-native-mt'
-    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    implementation 'io.ktor:ktor-client-core:1.6.7'
+    implementation 'io.ktor:ktor-client-cio:1.6.7'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test:1.6.0'
 }
 
 test {
