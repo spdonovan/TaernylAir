@@ -1,6 +1,14 @@
+buildscript {
+    dependencies {
+        classpath "org.jetbrains.kotlinx:atomicfu-gradle-plugin:0.16.2"
+    }
+}
+
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.6.10'
 }
+
+apply plugin: 'kotlinx-atomicfu'
 
 group = 'me.sdonova3'
 version = '1.0-SNAPSHOT'
